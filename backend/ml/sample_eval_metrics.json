@@ -1,0 +1,114 @@
+{
+  "model_name": "EcoSort-MobileNetV2-Transfer",
+  "architecture": "MobileNetV2 Backbone (ImageNet Pre-trained) + GlobalAvgPool + Dense(128, ReLU) + Dense(6, Softmax)",
+  "dataset": "E-Waste Dataset (dataset)",
+  "evaluated_at": "2026-10-29T11:22:12Z",
+  "test_samples_count": 32,
+  "accuracy": 1.0,
+  "precision_macro": 1.0,
+  "recall_macro": 1.0,
+  "f1_macro": 1.0,
+  "avg_inference_time_ms": 80.44,
+  "confusion_matrix": [
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ]
+  ],
+  "class_names": [
+    "mobile_phones",
+    "laptops",
+    "keyboards",
+    "circuit_boards",
+    "batteries",
+    "chargers_cables"
+  ],
+  "per_class_metrics": {
+    "mobile_phones": {
+      "name": "Mobile Phones",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 6
+    },
+    "laptops": {
+      "name": "Laptops",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 5
+    },
+    "keyboards": {
+      "name": "Keyboards",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 7
+    },
+    "circuit_boards": {
+      "name": "Circuit Boards",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 5
+    },
+    "batteries": {
+      "name": "Batteries",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 3
+    },
+    "chargers_cables": {
+      "name": "Chargers Cables",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 6
+    }
+  }
+}
